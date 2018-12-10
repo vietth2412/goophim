@@ -1,3 +1,18 @@
 page-home {
+  .input-search {
+    border-radius: 20px;
+    border: solid 2px map-get($colors, primary);
+  }
 
+  .search-header {
+    margin: auto;
+    width: 75%;
+
+    ion-icon {
+      margin-top: 16px;
+      margin-left: -25px;
+      font-size: 20px;
+      z-index: 1;
+    }
+  }
 }
